@@ -1,0 +1,10 @@
+! name: No Aggregator 2
+! description: Rerank results to downrank aggregator sites.
+! public: false
+! author: Loca
+! avatar: #9244e0
+
+$discard
+$downrank,site=yelp.com
+
+$boost=3,site=reddit.com
