@@ -1,0 +1,15 @@
+! name: No Aggregator
+! description: Rerank results to remove pages / threads hosted on aggregator sites like tripadvisor, opentable, yelp, etc.
+! public: false
+! author: justingoldstein
+
+$discard,site=yelp.com
+$discard,site=tripadvisor.com
+$discard,site=opentable.com
+$discard,site=toasttab.com
+$discard,site=grubhub.com
+$discard,site=zomato.com
+$discard,site=menupages.com
+$discard,site=allmenus.com
+$discard,site=seamless.com
+$discard,site=doordash.com
