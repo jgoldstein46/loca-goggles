@@ -1,6 +1,6 @@
 ! name: No Aggregator
 ! description: Rerank results to remove pages / threads hosted on aggregator sites like tripadvisor, opentable, yelp, etc.
-! public: false
+! public: true
 ! author: justingoldstein
 
 $discard,site=yelp.com
