@@ -3,28 +3,4 @@
 ! public: true
 ! author: justingoldstein
 
-$discard,site=yelp.com
-$discard,site=tripadvisor.com
-$discard,site=opentable.com
-$discard,site=toasttab.com
-$discard,site=grubhub.com
-$discard,site=zomato.com
-$discard,site=menupages.com
-$discard,site=allmenus.com
-$discard,site=seamless.com
-$discard,site=doordash.com
-$discard,site=restaurantji.com
-$discard,site=resy.com
-$discard,site=restaurantguru.com
-$discard,site=urbanspoon.com
-$discard,site=eat24.com
-$discard,site=eatstreet.com
-$discard,site=delivery.com
-$discard,site=justeat.com
-$discard,site=foodpanda.com
-$discard,site=foodler.com
-$discard,site=grubstreet.com
-$discard,site=chowhound.com
-$discard,site=eatthis.com
-$discard,site=dineout.co.in
-$discard,site=eatigo.com
+$site=yelp.com,discard
