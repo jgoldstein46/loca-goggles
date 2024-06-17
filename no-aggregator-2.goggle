@@ -1,7 +1,7 @@
 ! name: No Aggregator 2
 ! description: Rerank results to downrank aggregator sites.
-! public: true
+! public: false
 ! author: Loca
 ! avatar: #9244e0
 
-opentable.com^$discard
+opentable.com$discard
